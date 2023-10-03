@@ -37,3 +37,9 @@ print(name)
 #Thus while processing information for numeric type, we need to tell the interpreter about it
 """ E.g. """ age = int(input("Enter your age:"))
 temperature = float(input("Enter the temperature"))
+
+###ADDITION EXAMPLE###
+num1=int(input("Enter first number"))
+num2=int(input("Enter second number"))
+num3 = num1+num2
+print("addition is:" num3)
