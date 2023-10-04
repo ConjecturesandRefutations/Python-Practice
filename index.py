@@ -46,4 +46,20 @@ print("addition is:" num3)
 
 ###COMPARISON OPERATORS###
 #Basically the same as in JavaScript
-a>b
+
+###Walrus Operator###
+#It is a recent addition to the new version of python
+#Walrus-operator is another name for assignment expressions
+#According to the official documentation, it a way to assign a value to a variable within an expression.
+
+##For example:
+
+#using assignment operator:
+#variable = false
+#print(variable)
+
+#using walrus operator 
+#print(variable:=false)
+
+#Thus we are allowed to combine those two statements using the Walrus operator
+
