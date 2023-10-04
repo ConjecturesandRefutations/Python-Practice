@@ -43,3 +43,7 @@ num1=int(input("Enter first number"))
 num2=int(input("Enter second number"))
 num3 = num1+num2
 print("addition is:" num3)
+
+###COMPARISON OPERATORS###
+#Basically the same as in JavaScript
+a>b
