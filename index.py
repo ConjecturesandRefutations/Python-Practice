@@ -113,7 +113,7 @@ else: print('Not this time')
 #1. For Loop
 #2. While Loop
 
-#For Loop
+###For Loop###
 for variable in sequence:
     statements
 
@@ -132,4 +132,17 @@ for num in range(1,101):
 range(0,10,2)
 #will return:
 [0,2,4,6,8]
+
+###While Loop###
+#A while loop works based on the condition:
+
+while condition:
+    statement
+
+#It repeatedly executes the following statements until the condition is evaulated as false.
+
+num=0
+while (num<10):
+    print(num)
+    num = num + 1 #update the value of num by 1
 
