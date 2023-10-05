@@ -55,11 +55,11 @@ print("addition is:" num3)
 ##For example:
 
 #using assignment operator:
-#variable = false
-#print(variable)
+variable = False
+print(variable)
 
 #using walrus operator 
-#print(variable:=false)
+print(variable:=False)
 
 #Thus we are allowed to combine those two statements using the Walrus operator
 
