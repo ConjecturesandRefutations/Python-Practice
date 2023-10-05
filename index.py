@@ -63,3 +63,73 @@ print(variable:=False)
 
 #Thus we are allowed to combine those two statements using the Walrus operator
 
+###IF STATEMENTS###
+if condition:
+    statements if True
+
+#A colon(:) is used in Python to make the code more readable and to separate the different parts of an expression.
+
+if 5==5:
+    print('You successfully learned the if statement')
+
+#==(equal to) operator is used to compare two entities
+
+if 5>9:
+    print('Oops! Not this time.')
+
+#In the above statement, the condition is evaluated as false. Thus the statement following it will never be computed.
+
+if condition:
+    statements is True
+else:
+    statements is False
+
+#If we want to check multiple conditions we can use elif statements:
+if condition1:
+    statements
+elif condition2:
+    statements
+elif condition3:
+    statements
+else:
+    statements
+
+#elif will always come after an if statement, it cannot exist individually
+#elif statements will be checked in the order in which they appear
+
+if 5==4:
+    print('An if statement. Oh!')
+elif 4==4:
+    print("That's something new")
+elif 4>=9:
+    print("Really?")
+else: print('Not this time')
+
+#If all the conditions were evaluated as false, then the else block would be executed
+
+###LOOPS###
+
+#There are two types of loops in Python:
+#1. For Loop
+#2. While Loop
+
+#For Loop
+for variable in sequence:
+    statements
+
+for num in range(1,101):
+    print(num)
+
+#range is a function in Python. range() takes a starting value and an ending value
+#It generates a list of numbers between them inclusive of starting value and excluding the ending value. In our case from 1 inclusive to 101 exclusive.
+#If only one value is passed to range(), it assumes that the starting value is 0 and generates a list of numbers.
+#range(100) and range(0,100) gives the same result.
+
+#A third parameter can also be passed to the range function, which represents the 'step'.
+#A step is a number by which the index will change every time the loop executes.
+#By default a step is 1.
+
+range(0,10,2)
+#will return:
+[0,2,4,6,8]
+
