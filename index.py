@@ -146,3 +146,23 @@ while (num<10):
     print(num)
     num = num + 1 #update the value of num by 1
 
+###FUNCTIONS###
+
+def functionName (parameters):
+    statements
+    return something
+
+#def is used to declare a function
+#functionName is the name of the function
+#A function may take in parameters, or may not. Parameters consist of variables used by the function, e.g. two numbers to be summed.
+#statements are the operations which we need to perform
+#A return statement marks the end of the function and can be used to return the output. You can avoid putting it in, if you don't have to return any value.
+
+def helloWorld():
+    print("Hello World")
+
+#This function takes no parameters, and prints "Hello World" every time it is called.
+
+def addNumbers(num1,num2):
+    sum = num1+num2
+    return sum
