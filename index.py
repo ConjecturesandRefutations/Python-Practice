@@ -166,3 +166,18 @@ def helloWorld():
 def addNumbers(num1,num2):
     sum = num1+num2
     return sum
+
+###Calling a function###
+
+#To use a function we can defined, we need to make a call to the function
+#Calling a function uses the following syntax:
+
+functionName(parameters)
+
+def addNumbers(num1, num2):
+    sum = num1+num2
+    print(sum)
+    return
+addNumbers(2,3)
+addNumbers(4,5)
+
