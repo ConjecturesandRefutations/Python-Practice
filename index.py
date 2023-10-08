@@ -181,3 +181,36 @@ def addNumbers(num1, num2):
 addNumbers(2,3)
 addNumbers(4,5)
 
+###Lambda Functions###
+
+#Lambdas, also known as anonymous functions, are small, restricted functions which do not need a name
+#In Python, lambda expressions (or lambda forms) are utilized to construct anonymous functions
+#To do so, you will use the 'lambda' keyword (just as you use 'def' to define normal functions)
+
+#Every anonymous function you define in Python will have 3 essential parts:
+# 1. The 'lambda' keyword
+# 2. The parameters (or bound variables)
+# 3. The function body
+
+#Moreover, a lamba is writeen in a single line of code and can also be invoked immediately
+
+#Syntax:
+
+#lambda p1, p2: expression
+
+#Here p1 and p2 are the parameters which are passed to the lambda function. You can add as many or as few parameters as you need
+
+#Example:
+adder = lambda x, y: x+y
+print (adder 1,2)
+
+#Here we define a variable that will hold the result returned by the lambda function
+
+#To Summarise Functions#:
+
+#1. Functions are reusable blocks of code written to perform specific tasks
+#2. Functions in Python are declared using the 'def' keyword
+#3. 'def' is followed by the function name followed by the functions#s parameters. The function body contains the statements to be executed
+#4. Functions can be called by their function name followed by brackets and parameters, if any
+#5. Lambda functions are defined using 'lambda' keyword
+#6. Lambda function can help shorten the code
