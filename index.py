@@ -214,3 +214,93 @@ print (adder 1,2)
 #4. Functions can be called by their function name followed by brackets and parameters, if any
 #5. Lambda functions are defined using 'lambda' keyword
 #6. Lambda function can help shorten the code
+
+###Operations on Numbers###
+
+#Python provides numerous built-in functions which can be used to perform many complex operations
+
+##pow()##
+#The pow() function takes two numbers and returns the result of the first number raised to the power of the second
+#But to use all the functions that we will be discussing we need to import a math module
+#A module is an external Python file that contains functions that are used by other Python programmes
+#To import a module, the import statement is used
+
+import moduleName
+
+#To access any function of the math module we write math.functionName()
+#In case of pow:
+
+import math
+math.pow(4,3)
+
+#This will return 4 raised to the power of 3 which is 64
+
+##Floor and ceil functions##
+#Floor and ceil functions are other widely used functions.
+##math.floor() takes in a number as a parameter and returns the largest integer equal to or less than the number passed as the parameter
+
+import math
+a = math.floor(4.3)
+b = math.floor(10.9)
+print(a)
+print(b)
+
+#The output of the above code snippet will be
+4
+10
+
+##math.ceil() takes in a number as a parameter and returns the smallest integer equal to or greater than the number passed as the parameter
+
+import math
+a = math.ceil(4.3)
+b = math.ceil(10.9)
+print(a)
+print(b)
+
+#The output of the above snippet will be:
+5
+11
+
+##fabs() function
+#fabs() function takes in one parameter and returns its absolute value
+#An absolute value is the magnitude of a number irrespective of its sign, i.e +ve or -ve
+
+a = math.fabs(10)
+a = math.fabs(-10)
+print(a)
+print(b)
+
+#The output of the above snippet will be 
+10
+10
+
+##math.log()
+#math.log() is used for finding the logarithm of a number
+#math.log() can take either one parameter or two
+#When one parameter is passed, it returns the natural logarithm of that number
+#When two parameters are passed, it returns the logarithm of the first number to the base of the second number
+
+import math
+a = math.log(10)
+b = math.log(10,2)
+print(a)
+print(b)
+
+#The output of the above snippet will be:
+2.3025850
+3.3219280
+
+##math.sqrt()
+#math.sqrt() takes in a single parameter and returns the square root of the number
+
+import math
+a = math.sqrt(9)
+b = math.sqrt(16)
+print(a)
+print(b)
+
+#The output of the above code snippet will be
+3.0
+4.0
+
+#The math modules consists of numerous other functions, which also includes trigonometric and hyperbolic functions
