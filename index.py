@@ -304,3 +304,52 @@ print(b)
 4.0
 
 #The math modules consists of numerous other functions, which also includes trigonometric and hyperbolic functions
+
+##A Note on Strings##
+#A string enclosed within triple quotes ''' ''' can span multiple lines and all the whitespace will be included in the string.
+#""" """ can also be used in place of ''' '''
+num3 = '''this looks somewhat
+different
+it is really different'''
+
+###String Functions###
+
+##.capitalize() function
+#It returns the string in Sentence case, ie with the first letter capitalized and the rest small.
+#To use string functions we write:
+str.functionName()
+#where str is the string we want to manipulate
+
+#E.g.
+str = "here I Am"
+str.capitalize()
+#This is return `Here I am`. Take note that the value of str is still the same, capitalize() returns a new string.
+
+##.count()
+#A str.count() function returns the number of occurrences of the substring specified as the parameter.
+str = "here I am"
+str.count('e')
+##str.count will return 2 because there are two 'e's in the str
+#similarly,
+str = "here I am"
+str.count('am') #will return 1
+
+##.find()
+#A str.find() function returns the location of the first occurence of a substring passed in find() as a parameter if it exists in str
+str = "here I am"
+a = str.find('h')
+print(a)
+#The output of the above snippet will be:
+0
+#Similarly, str.find('I') will return `5`.
+#Also, str.find('d') will return -1 because d is not found in the string
+
+##str.join
+#A str.join() function return the concatenated string of the sequence of strings passed to it.
+#In this case, str contains the separator to be used while concatenating those strings.
+str = " "
+iter = ('I', 'am', 'awesome.')
+a = str.join(iter)
+print(a)
+#The output of the above snippet will be 
+I am awesome.
