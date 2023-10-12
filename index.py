@@ -353,3 +353,19 @@ a = str.join(iter)
 print(a)
 #The output of the above snippet will be 
 I am awesome.
+
+###Lists###
+#A list is a datastructure which is used to hold multiple values
+#These values may or may not be of the same type
+#Data structure is a format for storing data
+#A list contains items separated by commas
+#These items are enclosed within square brackets
+#A variable can be used to store a list
+
+list1 = [1,3,6,7,9]
+list2 = [4,'hi',6,'me',78]
+
+#The items in a list are identified using their positions
+#These positions are known as 'indexes'
+#Indexes start from 0
+
