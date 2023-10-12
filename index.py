@@ -369,3 +369,35 @@ list2 = [4,'hi',6,'me',78]
 #These positions are known as 'indexes'
 #Indexes start from 0
 
+##Accessing data from lists
+#The items in the list are accessed using their index numbers
+#To access an item in the list we write the name of the list followed by the index ofd the item we want to access inside square brackets
+
+print(list1[1]) 
+#will display
+3
+
+#You can also access multiple itmes in a list
+#To do so we need to specify the starting index and the ending index, separated by a colon
+#Thus if we want to access the values of 3,6 and 7, we can write:
+
+a = list1[1:4]
+
+#And the output of the above snippet will be 
+[4,5,6] #The first number is inclusive, the second number is exclusive
+
+#To access all the items we can write the name of the list, or index all the elements explicitly:
+
+list1 = [1,3,6,7,9]
+list1
+
+#To access items beginning from index 0, we can write:
+
+list1[:5]
+
+#When no index is specified before the colon, indexing starts at 0. To access the elements from index 1 till the end we can write:
+
+list1[2:]
+
+#When no index is specified after the colon, the indexing ends at the last element
+
