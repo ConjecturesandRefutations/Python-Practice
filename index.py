@@ -401,3 +401,58 @@ list1[2:]
 
 #When no index is specified after the colon, the indexing ends at the last element
 
+###Updating data in Lists###
+#To update an item in a list, we will first access the item and then assign a new value to it
+
+#For instance, consider a list:
+
+list2 = [4,55,6,7,8,9,90]
+
+#In order to update the value of the item at index 4 (which has a value 8), we write:
+
+list2[4] = 88
+
+#After which the updated list looks like [4,55,6,7,88,9,90]
+#We can also add an item at the end instead of replacing the present ones
+
+##To add an item at the end of the list we use the append() function
+
+list2.append(150)
+
+#This will add 150 at the end of the list and the updated list will look like:
+
+[4,55,6,7,88,9,90,150]
+
+#Similarly, repeatedly using append() you can add as many element you want in the list
+
+##Deleting data in lists
+#Just as we add items to the list, we can also remove them
+#To delete items from the list we use `del` statement followed by the name of the list and the index in brackets
+
+#Consider, we want to delete 4th item in list1 = [4,5,6,2,1]
+#To do so, we write:
+
+del list1[3]
+
+#This will delete the item at index 3 (ie the 4th item) and return:
+[4,5,6,1]
+
+#We can use the remove() function in order to get the same result
+#In remove() we need to specify the element which we wish to delete
+
+list1 = [4,5,6,2,1]
+list1.remove[5]
+print(list1)
+
+#The above snippet will remove 5 from the list and will display
+[4,6,2,1]
+
+##In summary, remove is used to eliminate specific values by their content,
+#  while del is used to remove elements by their index in the list. 
+# The choice between them depends on your specific requirements.
+
+##Lists Summary
+#A list is a data structure which can hold multiple values of different or same types
+#We can add items to the list using the append() function
+#Also we can update any value using the bracket notation and index of the item followed by a new value
+#To delete any item, `del` statement can be used, simmilarly, the remove() function is also used to delete items from the list
