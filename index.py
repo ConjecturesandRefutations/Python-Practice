@@ -515,3 +515,20 @@ tuple1[2:]
 #We learned that a tupleis very similar to a list
 #The main difference is that we cannot update or delete items within a tuple
 #However,we can delete the entire tuple using the `del` statement
+
+###Dictionaries###
+##What is a dictionary?
+#Just like a traditional dictionary has words and their meanings,
+#A Python dictionary is a data structure which contains data in the form of pairs of keys and values
+#A key and value pair forms an item in the dictionary. A key is usually a string
+
+##Creating a dictionary
+#Items in a dictionary are separated by a comma. Note that the last item doesn't have a comma following it
+#Keys and values are separated by a colon
+#Items in a dictionary are enclosed within curly brackets
+
+dic1 = {'name':'alfie','age':30,'hobby':'running'}
+
+#dic1 is a dictionary that contains 3 items
+#First one is 'name' with value 'alfie' etc.
+
