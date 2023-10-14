@@ -554,3 +554,28 @@ dic1['name'] = 'abc'
 #To add a new key-value pair to the dictionary, we can use a key which is not present in the dictionary and assign a value to it
 #For instance, writing dic1['profession'] = 'pilot' will add a new key 'profession' with a value 'pilot' to dic1
 
+##Deleting data in a dictionary
+#In a dictionary, we can either remove an individual item or the entire dictionary
+
+#To remove an individual item `del` statement is used followed by the name of the dictionary and the key inside square brackets
+
+del dict1['name']
+
+#The statement will remove the item with the key 'name' from the dictionary
+
+#To remove the entire dictionary, `del` statement is used followed by the name of the dictionary
+
+del dict1 #will delete the entire dictionary
+
+#Instead of deleting the entire dictionary, we can also just remove all the items and empty the dictionary
+#To do so, we need to use the clear() function
+#Writing `dict1.clear()` will remove all items from dict1
+#If we write `print(dict1)` after the clear statement, we will get {} as the output, indicating a dictionary with no items
+
+##Dictionary Summary
+#We learned that a dictionary is a data structure which contains keys and values separated by a comma and enclosed within curly braces
+#To access any item in a dictionary we can use a dictionary name followed by key names inside square brackets
+#To update an item we first access the item and assign it the value we want
+#To delete an item we can use `del` followed by the dictionary name and key in brackets
+#To remove all items we can use `clear()` function
+#And to delete the entire dictionary we can use `del` followed by the dictionary name
