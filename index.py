@@ -532,3 +532,25 @@ dic1 = {'name':'alfie','age':30,'hobby':'running'}
 #dic1 is a dictionary that contains 3 items
 #First one is 'name' with value 'alfie' etc.
 
+##Accessing data from a dictionary
+#The items in a dictionary are accessed using their keys
+#To access an item in a dictionary we write the name of the dictionary followed by the key of the item
+#we want to access inside square brackets
+
+dict1['age']
+
+#writing print(dict1) will display all of the items
+
+##Updating data in a dictionary
+#In a dictionary, we can either add a key-value pair or update an existing one
+#To update an existing entry we need to first access the item and then assign a new value to it
+#For instance:
+
+dic1['name'] = 'abc'
+
+#The name will be updated to the value 'abc'
+
+##Adding a new item to a dictionary
+#To add a new key-value pair to the dictionary, we can use a key which is not present in the dictionary and assign a value to it
+#For instance, writing dic1['profession'] = 'pilot' will add a new key 'profession' with a value 'pilot' to dic1
+
