@@ -476,3 +476,42 @@ print(list1)
 tuple1 = (2,3,5,6,7,2)
 
 #Thus in the tuple1 defined above, 2 is at index 0,5 is at index 2,and so on
+
+##Accessing data from a tuple
+#The values inside a tuple are accessed using their index numbers
+#To access an item in a tuple we write the name of the tuple followed by the index of the
+#item we want to access inside square brackets,just like we did in lists
+
+#We can also access multiple subsequent items in a tuple the same way we do in lists
+#To do so we need to use the starting index followed by a colon followed the index of the item #up to which we want to access the items
+
+#To access all the items we write 
+
+tuple1
+
+#This will return (2,4,5,6,7,2)
+
+#Similarly,to access items beginning from index 0, we can write:
+
+tuple1[:5]
+
+#Same for all items up until the end of the tuple:
+
+tuple1[2:]
+
+##Updating data from a tuple
+#Unlike lists,tuples are immutable
+#`Immutable` refers to the fact that the items in a tuple cannot be updated or deleted
+#So,there is no update or deletions of items in tuples
+#But we can update an entire tuple
+
+#To delete a tuple we us `del` statement
+#`del` is followed by the name of the tuple
+#Thus to delete tuple1 we need to write:
+
+ tuple1
+
+##Tuple summary
+#We learned that a tupleis very similar to a list
+#The main difference is that we cannot update or delete items within a tuple
+#However,we can delete the entire tuple using the `del` statement
