@@ -401,7 +401,7 @@ list1[2:]
 
 #When no index is specified after the colon, the indexing ends at the last element
 
-###Updating data in Lists###
+##Updating data in Lists
 #To update an item in a list, we will first access the item and then assign a new value to it
 
 #For instance, consider a list:
@@ -456,3 +456,23 @@ print(list1)
 #We can add items to the list using the append() function
 #Also we can update any value using the bracket notation and index of the item followed by a new value
 #To delete any item, `del` statement can be used, simmilarly, the remove() function is also used to delete items from the list
+
+###Tuples###
+#A tuple is a data structure just like a list which is used to hold multiple values
+#These values may or may not be of the same type
+#But if it was exactly the same as a list then we wouldn't need it right?!
+
+##Creating a tuple
+#A tuple is a sequence of items separated by commas
+#These items are enclosed within round brackets
+#A variable can be used to store a tuple
+#Tuple = (2,4,5,6,7,2)
+#A tuple,like a list,can store values of different types
+#tuple2 = (4,'hi',6,'me',78)
+
+#Just like lists, items in tuples are also identified by indexes
+#In tuples also, index starts from 0
+
+tuple1 = (2,3,5,6,7,2)
+
+#Thus in the tuple1 defined above, 2 is at index 0,5 is at index 2,and so on
